@@ -24,5 +24,17 @@
         android:id="@+id/selectedYear"
         android:layout_width="match_parent"
         android:layout_height="40dp"/>
+    
+    <EditText
+        android:hint="Write something"
+        android:id="@+id/textInput"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:textColor="@color/black"/>
+    <Button
+        android:id="@+id/saveTextButton"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="Save Text"/>
 
 </LinearLayout>
